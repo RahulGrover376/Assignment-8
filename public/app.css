@@ -1,0 +1,80 @@
+body
+{
+    background-color: aliceblue;
+}
+
+
+section{
+
+    border: 2px solid #ccc;
+    background-color: aqua;
+    margin: auto;
+    width: 600px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+
+}
+li{
+    text-align: center;
+    padding: 10px;
+}
+
+table{
+    margin:auto;
+    background-color: aqua;
+    text-align: center;
+    border-collapse: collapse;
+    width:75%;
+}
+td{
+    border: 2px solid rgb(199, 85, 85);
+    padding:5px;
+    width: 70%;
+    text-align: center;
+}
+#lastrow{
+    border-bottom: 5px solid black;
+}
+#firstrow{
+    border-top: 2.5px solid black;
+}
+h2
+{
+    text-align: center;
+    text-shadow: 0px 0px 2px red;
+}
+#enter{
+    width: 100px;
+    color: rgb(156, 126, 70);
+    background-color: lightblue;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+#enter:hover{
+    background-color: yellow;
+}
+#delete{
+    background-color: rgb(212, 41, 41);
+    width: 100px;
+    font-size: 1.2rem;
+    color:rgb(59, 163, 102);
+    border-radius: 10px;
+}
+#delete:hover{
+    background-color: red;
+}
+#exit{
+    background-color: rgb(187, 142, 58);
+    width: 100px;
+    font-size: 1.2rem;
+    color:rgb(21, 22, 21);
+    border-radius: 10px;
+}
+#exit:hover{
+    background-color: rgb(223, 160, 45);
+}
+#submit{
+    background-color: lightgreen;
+}
